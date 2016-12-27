@@ -20,8 +20,8 @@ export class GreetingComponent {
   constructor(public user: UserService) {
   }
 
-  enter(pin: number) {
-    this.user.pin = pin;
+  enter(pin: string) {
+    this.user.pin = parseInt(pin);
     this.greeting = 'Processing...';
     this.pending = this.user.getGreeting().then((greeting) => {
       this.greeting = greeting;

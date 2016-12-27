@@ -9,6 +9,7 @@ export class UserService {
   }
 
   isValidPin() {
+    console.log(this.pin);
     return (this.pin >= 0 && this.pin < 10000);
   }
 
