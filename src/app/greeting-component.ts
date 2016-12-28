@@ -5,12 +5,10 @@ import {UserService} from './user-service';
   selector: 'my-greeting',
   template: `
     <input #pinbox placeholder="1111" type="number"/>
-    <button (click)="enter(pinbox.value)">Enter</button>
+    <button (click)="enter(pinbox.value)" class="btn btn-primary">Enter</button>
     <h3>Status: {{greeting}}</h3>
   `,
   styles :[`
-    input {font-family: monospace; font-size: 2em; width: 4em}
-    button {border: 2px solid; height: 2em}
   `]
 })
 export class GreetingComponent {
