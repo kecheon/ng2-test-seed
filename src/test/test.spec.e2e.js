@@ -4,8 +4,6 @@ describe('Protractor Demo App', function() {
 	// browser.ignoreSynchronization = true;
 
     browser.get('http://localhost:9090/built/');
-    browser.sleep(5000);
-    var list = element.all(by.xpath("//h1"));
-    expect(list.first().getText()).toEqual('Hello world!');
+    expect(browser.getTitle()).toEqual('입찰정보시스템 by InnoG2B');
   });
 });

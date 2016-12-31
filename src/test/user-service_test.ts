@@ -4,7 +4,7 @@ import { LoginService } from '../app/login-service';
 
 
 
-describe('user service', () => {
+xdescribe('user service', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [LoginService, UserService]
@@ -46,7 +46,7 @@ class MockLoginService extends LoginService {
   }
 }
 
-describe('with mocked login', () => {
+xdescribe('with mocked login', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [{provide: LoginService, useClass: MockLoginService}, UserService]
@@ -60,7 +60,7 @@ describe('with mocked login', () => {
   })));
 });
 
-describe('with fake async', () => {
+xdescribe('with fake async', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [LoginService, UserService]

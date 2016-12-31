@@ -3,7 +3,7 @@ System.config({
     'npm:': 'node_modules/'
   },
   map: {
-    'app': './built/app',
+    'bid': './built/bid',
     'rxjs': 'npm:rxjs',
     '@angular/core': 'npm:@angular/core/bundles/core.umd.js',
     '@angular/common': 'npm:@angular/common/bundles/common.umd.js',
@@ -13,7 +13,7 @@ System.config({
     'moment': 'node_modules/moment/moment.js',
     'ng2-bootstrap/ng2-bootstrap': 'node_modules/ng2-bootstrap/bundles/ng2-bootstrap.umd.js'  },
   packages: {
-    'app': {
+    'bid': {
       defaultExtension: 'js'
     },
     'rxjs': {

@@ -16,7 +16,7 @@ class MockLoginService extends LoginService {
   }
 }
 
-describe('greeting component', () => {
+xdescribe('greeting component', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [GreetingComponent],

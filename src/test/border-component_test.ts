@@ -13,7 +13,7 @@ import { BorderComponent } from '../app/border-component';
 class TestComponent {
 }
 
-describe('greeting component', () => {
+xdescribe('greeting component', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [TestComponent, BorderComponent]

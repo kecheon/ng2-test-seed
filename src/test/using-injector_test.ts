@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 
-describe('default test injector', () => {
+xdescribe('default test injector', () => {
   it('should provide default id', inject([APP_ID], (id) => {
     expect(id).toBe('a');
   }));
